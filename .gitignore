@@ -1,0 +1,29 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+# 1. Các thư mục tạm và cache của Unity (rất nặng, tự sinh ra khi mở project)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# 2. File môi trường bí mật (chính là file .env bạn đang tạo)
+.env
+.env*.local
+
+# 3. File cấu hình của IDE / Trình soạn thảo (VS Code, Visual Studio)
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
